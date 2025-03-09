@@ -12,7 +12,7 @@ A real-time crypto tracking dashboard with an AI chatbot that provides insights,
 Backend (/backend) - Node.js + Express
 ----------------------------------------
 backend/
-│── controllers/      # API logic
+│── controllers/       # API logic
 │   ├── cryptoController.js   # Fetch crypto prices
 │   ├── gasController.js      # Fetch Ethereum gas fees
 │   ├── chatController.js     # AI chatbot integration
