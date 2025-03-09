@@ -13,18 +13,31 @@ Backend (/backend) - Node.js + Express
 ----------------------------------------
 backend/
 
+
 │── controllers/       # API logic
+
 │   ├── cryptoController.js   # Fetch crypto prices
+
 │   ├── gasController.js      # Fetch Ethereum gas fees
+
 │   ├── chatController.js     # AI chatbot integration
+
 │── routes/          
+
 │   ├── cryptoRoutes.js       # Crypto price routes
+
 │   ├── gasRoutes.js          # Gas tracker routes
+
 │   ├── chatRoutes.js         # Chatbot routes
+
 │── config/          
+
 │   ├── keys.js               # API keys (avoid committing)
+
 │── index.js           # Main Express server
+
 │── package.json       # Backend dependencies
+
 │── .env              # Store API keys securely
 
 -----------------------------------------------------------
@@ -32,29 +45,51 @@ Frontend (/frontend) - React.js
 -------------------------------------
 
 frontend/
-│── public/               # Static assets
-│── src/
-│   ├── assets/           # Images, icons, etc.
-│   ├── components/       # Reusable UI components
-│   │   ├── Header.js         # Navigation bar with logo
-│   │   ├── CryptoPrices.js   # Crypto price tracker
-│   │   ├── NewsFeed.js       # Crypto news feed
-│   │   ├── Chatbot.js        # AI chatbot UI
-│   │   ├── GasTracker.js     # Ethereum gas tracker
-│   ├── pages/           # Main pages
-│   │   ├── Home.js           # Landing page
-│   │   ├── Dashboard.js      # Main dashboard
-│   │   ├── ChatbotPage.js    # Full-page chatbot
-│   ├── styles/           # CSS and animations
-│   │   ├── animations.css    # Keyframe animations
-│   │   ├── main.css          # Global styles
-│   ├── App.js             # Main React component
-│   ├── index.js           # React entry point
-│   ├── api.js             # API calls
-│── package.json          # Dependencies
-│── .gitignore            # Files to ignore in Git
-│── .env                  # Environment variables
 
+
+│── public/               # Static assets
+
+│── src/
+
+│   ├── assets/           # Images, icons, etc.
+
+│   ├── components/       # Reusable UI components
+
+│   │   ├── Header.js         # Navigation bar with logo
+
+│   │   ├── CryptoPrices.js   # Crypto price tracker
+
+│   │   ├── NewsFeed.js       # Crypto news feed
+
+│   │   ├── Chatbot.js        # AI chatbot UI
+
+│   │   ├── GasTracker.js     # Ethereum gas tracker
+
+│   ├── pages/           # Main pages
+
+│   │   ├── Home.js           # Landing page
+
+│   │   ├── Dashboard.js      # Main dashboard
+
+│   │   ├── ChatbotPage.js    # Full-page chatbot
+
+│   ├── styles/           # CSS and animations
+
+│   │   ├── animations.css    # Keyframe animations
+
+│   │   ├── main.css          # Global styles
+
+│   ├── App.js             # Main React component
+
+│   ├── index.js           # React entry point
+
+│   ├── api.js             # API calls
+
+│── package.json          # Dependencies
+
+│── .gitignore            # Files to ignore in Git
+
+│── .env                  # Environment variables
 
 🛠️ Tech Stack
 Frontend: React.js, Axios, Framer Motion
