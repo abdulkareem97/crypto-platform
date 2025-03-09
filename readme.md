@@ -14,9 +14,7 @@ Backend (/backend) - Node.js + Express
 backend/
 
 │── controllers/       # API logic
-
 │   ├── cryptoController.js   # Fetch crypto prices
-
 │   ├── gasController.js      # Fetch Ethereum gas fees
 │   ├── chatController.js     # AI chatbot integration
 │── routes/          
@@ -28,9 +26,11 @@ backend/
 │── index.js           # Main Express server
 │── package.json       # Backend dependencies
 │── .env              # Store API keys securely
+
 -----------------------------------------------------------
 Frontend (/frontend) - React.js
 -------------------------------------
+
 frontend/
 │── public/               # Static assets
 │── src/
