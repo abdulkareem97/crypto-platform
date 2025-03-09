@@ -67,8 +67,8 @@ Crypto News API (Optional)
 💻 How to Run Locally
 1️⃣ Clone the Repository
 
-git clone https://github.com/your-username/crypto-analyst.git
-cd crypto-analyst
+git clone https://github.com/abdulkareem97/crypto-platform.git
+cd crypto-platform
 
 ------------------------------------------
 2️⃣ Backend Setup
